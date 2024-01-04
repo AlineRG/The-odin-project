@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+header{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+
+  a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: rebeccapurple;
+  }
+
+.logo{
+    color: rebeccapurple;
+    font-size: 28px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.logo , .rightSide {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+  }
+  
+.notification{
+    border-radius: 10px;
+    border-color: purple;
+    list-style-type: none;
+    background-color: purple;
+    color:aliceblue;
+}
+
+.profile-image {
+    background: rebeccapurple;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 50%;
+    width: 48px;
+    height:  48px;
+  }
+
+  .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }

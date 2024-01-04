@@ -1,0 +1,19 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;
+    border-color: blue;
+    height: 300px;
+    width: 400px;
+}
+
+.centerDiv{
+    text-align: center;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+}

@@ -43,3 +43,8 @@ body {
     font-size: 32px;
     font-weight: 900;
   }
+
+.body {
+    flex: 1;
+    display: flex;
+  }

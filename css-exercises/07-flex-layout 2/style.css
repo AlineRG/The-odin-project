@@ -63,3 +63,28 @@ body {
   li {
     margin-bottom: 16px;
   }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  .rightContainer {
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Smallcontainer {
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }

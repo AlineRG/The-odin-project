@@ -48,3 +48,8 @@ body {
     flex: 1;
     display: flex;
   }
+
+  .leftSide {
+    flex-shrink: 0;
+    padding: 16px;
+  }
